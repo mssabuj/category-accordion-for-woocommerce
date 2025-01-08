@@ -1,0 +1,71 @@
+/*
+    Plugin Name: Category Accordion for WooCommerce
+    Description: WooCommerce Category Accordions plugin allows you to list WooCommerce product categories and subcategories into an accordion with expand/collapse option.
+    V@ 1.0.0
+*/
+
+ul.tp-woo-category-accordion {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul.tp-woo-category-accordion li {
+    list-style: none;
+    border-bottom: 1px solid #ddd;
+    padding: 5px 0px 5px 0px;
+}
+ul.tp-woo-category-accordion li ul.sub-categories li:last-child {
+    border-bottom: none;
+}
+ul.tp-woo-category-accordion li:last-child {
+    border-bottom: 0;
+}
+ul.tp-woo-category-accordion li.has-subcategories ul {
+    margin: 0;
+    padding-left: 20px;
+    border-top: 1px solid #ddd;
+}
+.has-subcategories {
+    transition: transform 0.3s ease;
+}
+.has-subcategories.active i.fa {
+    transform: rotate(90deg);
+}
+ul.tp-woo-category-accordion li a {
+	color: #030303;
+	font-size:16px;
+    transition: all 0.3s;
+    box-shadow: none;
+    outline: none;
+	width: 100%;
+	display: block;
+	overflow: hidden;
+}
+ul.tp-woo-category-accordion li a:hover {
+	color:#0000FF;
+}
+ul.tp-woo-category-accordion li.has-subcategories.active a{
+	color:#0000FF;
+}
+ul.tp-woo-category-accordion li.has-subcategories.active ul li a{
+	color:#030303;
+}
+ul.tp-woo-category-accordion li.has-subcategories.active ul li a:hover{
+	color:#0000FF;
+}
+ul.tp-woo-category-accordion li a i.fa {
+    transition: all 0.3s;
+	float: right;
+	line-height: 28px;
+	margin-right:3px;
+}
+ul.tp-woo-category-accordion li.has-subcategories ul.sub-categories li i.fa {
+    display: none;
+}
+ul.tp-woo-category-accordion li.has-subcategories ul.sub-categories li {
+/*    padding: 0;
+    padding-top: 5px;*/
+}
+ul.tp-woo-category-accordion li.has-subcategories ul.sub-categories li:last-child{
+	padding-bottom: 0;
+}
