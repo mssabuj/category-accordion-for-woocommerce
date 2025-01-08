@@ -2,8 +2,6 @@
 
 WooCommerce Category Accordion plugin enables you to list WooCommerce product categories and subcategories in an accordion format with expand/collapse functionality.
 
-### Scrollbar by https://themepoints.com/woo-accordion
-
 * [Live demo!&raquo;](https://themepoints.com/woo-accordion)
 
 
@@ -25,6 +23,6 @@ WooCommerce Category Accordion plugin enables you to list WooCommerce product ca
 
 == Installation ==
 
-1. Install as regular WordPress plugin.
-2. Go your Pluings setting via WordPress Dashboard and activate it.
+1. Install a regular WordPress plugin.
+2. Go to your Plugins setting via WordPress Dashboard and activate it.
 3. After activating the plugin, you will find the 'Category Accordion Widget WooCommerce' widget available in the Widgets section.<br />
